@@ -1,12 +1,12 @@
 +++
 title = "Nissim Francez's 'Proof-theoretic semantics' (I)"
-description = ""
-date = "2016-11-01T22:16:24+01:00"
+description = "This is the first part of my review of Nissim Francez’s book ‘Proof-theoretic semantics’."
+date = "2016-11-20T22:16:24+01:00"
 
 +++
 Preamble
 ===
-I am sharing an office with Francesco Paoli and, ever since I arrived in Cagliari (that was in February), [Nissim Francez's](http://www.cs.technion.ac.il/~francez/) book [Proof-theoretic semantics](http://www.collegepublications.co.uk/logic/?00031) was always of Francesco's desk. Okay, this is the wrong way of putting it; for one thing, I've read it. What I mean is that the book was never re-shelved. That's a good faith for a book. 
+I am sharing an office with Francesco Paoli and, ever since I arrived in Cagliari (that was in February), [Nissim Francez's](http://www.cs.technion.ac.il/~francez/) book [Proof-theoretic semantics](http://www.collegepublications.co.uk/logic/?00031) was always of Francesco's desk. Okay, this is the wrong way of putting it; for one thing, I've read it. What I mean is that the book was never re-shelved. That's a good faith for a book.
 
 This particular book deserves aplenty a friendly review and I have planned to write one but never quite got to doing it. This (i.e., training myself to keep a regular blog) is as good as any an excuse to finally take some steps in that direction.
 
@@ -34,7 +34,7 @@ The second strategy is to move from rules dealing only with assertions to rules 
 
 >As long as the goal is the justification of Classical Logic (which anyway contains disjunction), I find the arguments acceptable. Furthermore, I find the general use of impure ND-rules acceptable for the justification of *any* logic containing all the operators mentioned in the impure rules. However, when the goal is the (schematic) definition of negation, when added to an *arbitrary* object language [...] I find the use of impure rules for defining negation unacceptable. After all, harmony (here achieved via the use of impure rules) is not a goal by itself -- it only serves to rule out ''bad'' definitions that do not satisfy the more immediate demands of purity and separability. (p. 180)
 
-I have a hard time wrapping my head around why the conditions of correct definition of a connective (here negation) may be overridden by whatever happens in a certain logic, such as it containing another connective, in this case disjunction. Besides, what is this goal, of justifying classical logic, if not the goal of showing that its connectives are harmonious? It may be that I am misunderstanding something here. But I classify Francez's preferred account of harmony -- intrinsic harmony -- as one which is aims at locality. That is, as an account which aims to characterise harmony only in terms of properties of  introduction/elimination rules for a constant, *independently* of what else happens in the logic under consideration. This makes his conclusion even stranger. (Locality is an aim which I myself find misguided, but that is another question.) 
+I have a hard time wrapping my head around why the conditions of correct definition of a connective (here negation) may be overridden by whatever happens in a certain logic, such as it containing another connective, in this case disjunction. Besides, what is this goal, of justifying classical logic, if not the goal of showing that its connectives are harmonious? It may be that I am misunderstanding something here. But I classify Francez's preferred account of harmony -- intrinsic harmony -- as one which is aims at locality. That is, as an account which aims to characterise harmony only in terms of properties of  introduction/elimination rules for a constant, *independently* of what else happens in the logic under consideration. This makes his conclusion even stranger. (Locality is an aim which I myself find misguided, but that is another question.)
 
 The penultimate chapter in Part I is entitled 'Proof-theoretic semantic values'. This is a very interesting development, if one that I am not feeling too confident in judging. Francez develops what is essentially a theory of 'grounds' (in Prawitz's sense). Grounds receive a precise formal definition (p. 185) and their theory is pushed up to defining, in a remarkably simple way, proof-theoretic logical consequence in relation to them. According to this definition *A* follows from a set of sentences *X* iff and only if the grounds for *A* are included into the ground for *X*. There is a wealth of stuff to think about in this chapter, whether one is provoked by the idea of 'reifying' proof-theoretic meanings or tempted to explore further Francez's suggestion that his results 'can be seen as fully in concert with Dosen's characterisation of connectives as internalizing structural properties'. (This is an idiosyncratic selection. Read the chapter and you'll find other interesting stuff.)
 
